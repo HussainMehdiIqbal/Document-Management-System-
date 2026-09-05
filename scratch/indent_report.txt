@@ -1,0 +1,229 @@
+File: admin\ajax\search.php (Lines: 95)
+  Space mod 4: {0: 47, 2: 2}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 0
+------------------------------------------------------------
+File: ajax\browse_folders.php (Lines: 52)
+  Space mod 4: {0: 19}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 0
+------------------------------------------------------------
+File: ajax\log_browse.php (Lines: 54)
+  Space mod 4: {0: 35}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 0
+------------------------------------------------------------
+File: ajax\log_rename.php (Lines: 92)
+  Space mod 4: {0: 41}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 0
+------------------------------------------------------------
+File: ajax\reset_dashboard.php (Lines: 36)
+  Space mod 4: {0: 10}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 0
+------------------------------------------------------------
+File: ajax\session_check.php (Lines: 17)
+  Space mod 4: {0: 1}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 0
+------------------------------------------------------------
+File: ajax\user_stats.php (Lines: 27)
+  Space mod 4: {0: 5}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 0
+------------------------------------------------------------
+File: assets\css\style.css (Lines: 1263)
+  Space mod 4: {3: 4, 2: 777, 0: 2}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 4
+  First few odd lines:
+    Line 2 (3 sp): DHA Document Management System — Master Stylesheet v3.0
+    Line 3 (3 sp): Database: dms_database | Premium Responsive Design
+    Line 4 (3 sp): Color Theme: Royal Blue & White
+    Line 5 (3 sp): ============================================================
+------------------------------------------------------------
+File: assets\js\allowed_classes.js (Lines: 170)
+  Space mod 4: {2: 137, 0: 6}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 0
+------------------------------------------------------------
+File: assets\js\app.js (Lines: 390)
+  Space mod 4: {2: 196, 0: 121, 3: 4, 1: 3}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 7
+  First few odd lines:
+    Line 163 (15 sp): <i class="fas ${r.icon} text-dha"></i>
+    Line 164 (15 sp): <div>
+    Line 165 (17 sp): <strong>${r.title}</strong>
+    Line 166 (17 sp): <small class="d-block" style="color:var(--text-muted);">${r.
+    Line 167 (15 sp): </div>
+------------------------------------------------------------
+File: assets\js\charts.js (Lines: 150)
+  Space mod 4: {2: 59, 0: 62}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 0
+------------------------------------------------------------
+File: dashboard.php (Lines: 709)
+  Space mod 4: {0: 208, 1: 18, 2: 277}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 18
+  First few odd lines:
+    Line 117 (5 sp): FROM documents d
+    Line 118 (5 sp): LEFT JOIN users u ON d.scanned_by = u.user_id
+    Line 119 (5 sp): LEFT JOIN (
+    Line 120 (9 sp): SELECT document_id, MAX(validated_at) AS max_val_at
+    Line 121 (9 sp): FROM validations
+------------------------------------------------------------
+File: database\dha_dms.sql (Lines: 191)
+  Space mod 4: {0: 95}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 0
+------------------------------------------------------------
+File: includes\auth.php (Lines: 128)
+  Space mod 4: {0: 83}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 0
+------------------------------------------------------------
+File: includes\config.php (Lines: 182)
+  Space mod 4: {0: 63, 1: 26}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 26
+  First few odd lines:
+    Line 79 (1 sp): * Sanitize output to prevent XSS
+    Line 80 (1 sp): */
+    Line 86 (1 sp): * Sanitize input (basic)
+    Line 87 (1 sp): */
+    Line 93 (1 sp): * Some databases created before the metadata-snapshot featur
+------------------------------------------------------------
+File: includes\footer.php (Lines: 10)
+  Space mod 4: {2: 1}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 0
+------------------------------------------------------------
+File: includes\header.php (Lines: 155)
+  Space mod 4: {3: 3, 2: 70, 0: 40, 1: 1}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 4
+  First few odd lines:
+    Line 3 (3 sp): Top navigation bar — include after body on every page
+    Line 4 (3 sp): Updated for dms_database schema | v3.0 Professional
+    Line 5 (3 sp): ─────────────────────────────────────────────────────────── 
+    Line 144 (9 sp): onclick="return confirm('Are you sure you want to logout?')"
+------------------------------------------------------------
+File: includes\user_header.php (Lines: 187)
+  Space mod 4: {3: 2, 0: 56, 2: 82, 1: 5}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 7
+  First few odd lines:
+    Line 3 (3 sp): Horizontal topbar + hnav for regular (non-admin) users only
+    Line 4 (3 sp): ─────────────────────────────────────────────────────────── 
+    Line 156 (9 sp): class="hnav-link <?= ($currentPage === 'user_dashboard') ? '
+    Line 161 (9 sp): class="hnav-link <?= ($currentPage === 'scan') ? 'active' : 
+    Line 166 (9 sp): class="hnav-link <?= ($currentPage === 'rename') ? 'active' 
+------------------------------------------------------------
+File: index.php (Lines: 9)
+  Space mod 4: {0: 2}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 0
+------------------------------------------------------------
+File: js_log.php (Lines: 13)
+  Space mod 4: {0: 3, 2: 4}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 0
+------------------------------------------------------------
+File: login.php (Lines: 346)
+  Space mod 4: {2: 171, 0: 111, 1: 3}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 3
+  First few odd lines:
+    Line 28 (13 sp): FROM users u
+    Line 29 (13 sp): LEFT JOIN roles r ON u.role_id = r.role_id
+    Line 30 (13 sp): WHERE u.username = ? LIMIT 1"
+------------------------------------------------------------
+File: logout.php (Lines: 14)
+  Space mod 4: {0: 3}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 0
+------------------------------------------------------------
+File: pages\dashboard.php (Lines: 709)
+  Space mod 4: {0: 208, 1: 18, 2: 277}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 18
+  First few odd lines:
+    Line 117 (5 sp): FROM documents d
+    Line 118 (5 sp): LEFT JOIN users u ON d.scanned_by = u.user_id
+    Line 119 (5 sp): LEFT JOIN (
+    Line 120 (9 sp): SELECT document_id, MAX(validated_at) AS max_val_at
+    Line 121 (9 sp): FROM validations
+------------------------------------------------------------
+File: pages\folders.php (Lines: 632)
+  Space mod 4: {0: 340, 1: 1, 2: 173, 3: 1}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 2
+  First few odd lines:
+    Line 133 (37 sp): VALUES (?,?,?,?,'pending',?,?,?,'upload')"
+    Line 469 (19 sp): word-break:break-all;margin-top:3px;"></div>
+------------------------------------------------------------
+File: pages\rename.php (Lines: 3658)
+  Space mod 4: {0: 1295, 2: 1740, 1: 36, 3: 12}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 48
+  First few odd lines:
+    Line 293 (17 sp): data-id="<?= $doc['document_id'] ?>"
+    Line 294 (17 sp): data-raw="<?= esc($doc['raw_filename']) ?>"
+    Line 295 (17 sp): data-renamed="<?= esc($doc['renamed_filename'] ?? '') ?>"
+    Line 296 (17 sp): data-db-folder="<?= esc($doc['folder_name'] ?? '') ?>"
+    Line 297 (17 sp): data-branch="<?= esc($doc['branch'] ?? '') ?>"
+------------------------------------------------------------
+File: pages\reports.php (Lines: 529)
+  Space mod 4: {0: 255, 2: 125, 1: 8, 3: 6}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 14
+  First few odd lines:
+    Line 133 (17 sp): AND DATE(scanned_at) BETWEEN '$safeStart' AND '$safeEnd'"
+    Line 138 (17 sp): AND DATE(renamed_at) BETWEEN '$safeStart' AND '$safeEnd'"
+    Line 145 (17 sp): (scanned_by = $uid AND DATE(scanned_at) BETWEEN '$safeStart'
+    Line 146 (17 sp): OR (renamed_by = $uid AND DATE(renamed_at) BETWEEN '$safeSta
+    Line 166 (13 sp): WHERE scanned_by = $userId AND source = 'scan' AND DATE(scan
+------------------------------------------------------------
+File: pages\scan.php (Lines: 1686)
+  Space mod 4: {0: 508, 1: 11, 2: 572, 3: 12}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 23
+  First few odd lines:
+    Line 121 (9 sp): (raw_filename, file_type, file_size, storage_path, branch, d
+    Line 123 (9 sp): VALUES (?,?,?,?,?,?,?,?,?,?,'pending',?,?,?,'scan')"
+    Line 425 (3 sp): wrap's width, so it must NOT be capped by max-height here to
+    Line 426 (3 sp): was fighting the JS scale and shrinking+left-aligning the pa
+    Line 427 (3 sp): to one side" bug). Let it use the full width and scroll vert
+------------------------------------------------------------
+File: pages\search.php (Lines: 98)
+  Space mod 4: {0: 49, 2: 3}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 0
+------------------------------------------------------------
+File: pages\stop_scan.php (Lines: 53)
+  Space mod 4: {0: 19}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 0
+------------------------------------------------------------
+File: pages\trigger_scan.php (Lines: 452)
+  Space mod 4: {0: 224, 1: 7, 2: 9}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 7
+  First few odd lines:
+    Line 198 (5 sp): . ' -o '          . escapeshellarg($outputPath);
+    Line 337 (25 sp): "Please check that the Canon DR-3010C is powered on, connect
+    Line 338 (25 sp): "(USB or network), and that its TWAIN driver is installed on
+    Line 339 (25 sp): "then try again." .
+    Line 340 (25 sp): ($errMsg !== '' ? " Details: $errMsg" : '')
+------------------------------------------------------------
+File: pages\users.php (Lines: 643)
+  Space mod 4: {2: 250, 0: 283, 1: 1}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 1
+  First few odd lines:
+    Line 90 (25 sp): VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
+------------------------------------------------------------
+File: pages\validate.php (Lines: 2153)
+  Space mod 4: {0: 807, 1: 58, 2: 759, 3: 13}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 71
+  First few odd lines:
+    Line 36 (1 sp): * Populates the documents table's report columns (doc_type, 
+    Line 37 (1 sp): * file_no, doc_year, branch) after a document is approved.
+    Line 38 (1 sp): *
+    Line 39 (1 sp): * IMPORTANT: When posted metadata (from the Verify Workflow 
+    Line 40 (1 sp): * available, we ALWAYS use it directly — it is the exact dat
+------------------------------------------------------------
+File: pages\view_scan.php (Lines: 63)
+  Space mod 4: {0: 14}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 0
+------------------------------------------------------------
+File: project_details.html (Lines: 783)
+  Space mod 4: {2: 371, 0: 323}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 0
+------------------------------------------------------------
+File: test_db.php (Lines: 9)
+  Space mod 4: {0: 4}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 0
+------------------------------------------------------------
+File: user_dashboard.php (Lines: 526)
+  Space mod 4: {0: 180, 1: 17, 2: 196, 3: 6}
+  Tab lines count: 0, Mixed lines count: 0, Odd space lines count: 23
+  First few odd lines:
+    Line 58 (9 sp): FROM validations v
+    Line 59 (9 sp): JOIN documents d ON v.document_id = d.document_id
+    Line 60 (9 sp): LEFT JOIN users u ON d.scanned_by = u.user_id
+    Line 61 (9 sp): WHERE v.validated_by = $uid
+    Line 62 (9 sp): ORDER BY v.validation_id DESC LIMIT 8"
+------------------------------------------------------------

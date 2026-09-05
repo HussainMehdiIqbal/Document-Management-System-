@@ -1,0 +1,12 @@
+﻿{
+    "NAPS2_CONSOLE_PATH":  "C:\\Program Files\\NAPS2\\naps2.console.exe",
+    "SCANNER_DEVICE_NAME":  "Canon DR-3010C TWAIN",
+    "SCANNER_DRIVER":  "twain",
+    "SCAN_PROFILE_NAME":  "DHA-Default",
+    "SCAN_TIMEOUT_SECONDS":  300,
+    "PORT":  51823,
+    "ALLOWED_ORIGIN":  "*",
+    "SCAN_SAVE_DIR":  "~/DHA_Scans",
+    "SCAN_RETENTION_DAYS":  30,
+    "SCAN_RETENTION_CHECK_HOURS":  6
+}

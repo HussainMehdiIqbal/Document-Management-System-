@@ -1,0 +1,719 @@
+[2026-07-17 07:58:44] URL: http://localhost/dha/pages/validate.php
+Message: Uncaught ReferenceError: initPagination is not defined
+Source: http://localhost/dha/pages/validate.php:1121:3
+Stack: ReferenceError: initPagination is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/validate.php:1121:3)
+--------------------------------------------------------------------------------
+[2026-07-17 07:58:49] URL: http://localhost/dha/pages/scan.php
+Message: Uncaught ReferenceError: initPagination is not defined
+Source: http://localhost/dha/pages/scan.php:430:3
+Stack: ReferenceError: initPagination is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/scan.php:430:3)
+--------------------------------------------------------------------------------
+[2026-07-17 07:58:51] URL: http://localhost/dha/pages/scan.php
+Message: Uncaught ReferenceError: initPagination is not defined
+Source: http://localhost/dha/pages/scan.php:430:3
+Stack: ReferenceError: initPagination is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/scan.php:430:3)
+--------------------------------------------------------------------------------
+[2026-07-17 08:34:26] URL: http://localhost/dha/pages/validate.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/validate.php:1171:9
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/validate.php:1171:9)
+--------------------------------------------------------------------------------
+[2026-07-17 08:40:29] URL: http://localhost/dha/pages/validate.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/validate.php:1163:9
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/validate.php:1163:9)
+--------------------------------------------------------------------------------
+[2026-07-17 08:51:35] URL: http://localhost/dha/pages/users.php?search=+Mumtaha
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/users.php?search=+Mumtaha:385:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/users.php?search=+Mumtaha:385:11)
+--------------------------------------------------------------------------------
+[2026-07-17 08:56:35] URL: http://localhost/dha/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/users.php:420:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/users.php:420:11)
+--------------------------------------------------------------------------------
+[2026-07-17 09:46:42] URL: http://localhost/dha/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/users.php:470:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/users.php:470:11)
+--------------------------------------------------------------------------------
+[2026-07-17 09:46:52] URL: http://localhost/dha/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/users.php:470:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/users.php:470:11)
+--------------------------------------------------------------------------------
+[2026-07-17 09:51:48] URL: http://localhost/dha/pages/validate.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/validate.php:1202:9
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/validate.php:1202:9)
+--------------------------------------------------------------------------------
+[2026-07-17 12:16:11] URL: http://localhost/dha/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/users.php:420:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/users.php:420:11)
+--------------------------------------------------------------------------------
+[2026-07-19 10:35:26] URL: http://localhost/dha/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/users.php:470:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/users.php:470:11)
+--------------------------------------------------------------------------------
+[2026-07-19 10:35:35] URL: http://localhost/dha/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/users.php:470:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/users.php:470:11)
+--------------------------------------------------------------------------------
+[2026-07-20 06:15:45] URL: http://localhost/dha/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/users.php:420:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/users.php:420:11)
+--------------------------------------------------------------------------------
+[2026-07-20 06:16:17] URL: http://localhost/dha/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/users.php:470:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/users.php:470:11)
+--------------------------------------------------------------------------------
+[2026-07-20 06:36:53] URL: http://localhost/dha/pages/validate.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/validate.php:443:9
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/validate.php:443:9)
+--------------------------------------------------------------------------------
+[2026-07-20 06:38:08] URL: http://localhost/dha/pages/validate.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/validate.php:493:9
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/validate.php:493:9)
+--------------------------------------------------------------------------------
+[2026-07-20 06:38:11] URL: http://localhost/dha/pages/validate.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/validate.php:481:9
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/validate.php:481:9)
+--------------------------------------------------------------------------------
+[2026-07-20 06:38:58] URL: http://localhost/dha/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/users.php:507:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/users.php:507:11)
+--------------------------------------------------------------------------------
+[2026-07-20 07:17:46] URL: http://localhost/dha/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/users.php:507:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/users.php:507:11)
+--------------------------------------------------------------------------------
+[2026-07-20 07:59:13] URL: http://localhost/dha/pages/validate.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/validate.php:600:9
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/validate.php:600:9)
+--------------------------------------------------------------------------------
+[2026-07-20 07:59:35] URL: http://localhost/dha/pages/validate.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/validate.php:540:9
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/validate.php:540:9)
+--------------------------------------------------------------------------------
+[2026-07-20 07:59:38] URL: http://localhost/dha/pages/validate.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/validate.php:528:9
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/validate.php:528:9)
+--------------------------------------------------------------------------------
+[2026-07-20 08:00:06] URL: http://localhost/dha/pages/validate.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/validate.php:569:9
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/validate.php:569:9)
+--------------------------------------------------------------------------------
+[2026-07-20 08:14:06] URL: http://localhost/dha/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/users.php:507:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/users.php:507:11)
+--------------------------------------------------------------------------------
+[2026-07-20 08:14:21] URL: http://localhost/dha/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/users.php:507:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/users.php:507:11)
+--------------------------------------------------------------------------------
+[2026-07-20 08:14:39] URL: http://localhost/dha/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/users.php:507:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/users.php:507:11)
+--------------------------------------------------------------------------------
+[2026-07-20 09:24:27] URL: http://localhost/dha/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/users.php:691:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/users.php:691:11)
+--------------------------------------------------------------------------------
+[2026-07-20 09:45:39] URL: http://localhost/dha/pages/validate.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/validate.php:575:9
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/validate.php:575:9)
+--------------------------------------------------------------------------------
+[2026-07-20 09:46:14] URL: http://localhost/dha/pages/validate.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/validate.php:571:9
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/validate.php:571:9)
+--------------------------------------------------------------------------------
+[2026-07-20 19:10:16] URL: http://localhost/dha/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/users.php:676:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/users.php:676:11)
+--------------------------------------------------------------------------------
+[2026-07-20 19:11:59] URL: http://localhost/dha/pages/validate.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/validate.php:1309:9
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/validate.php:1309:9)
+--------------------------------------------------------------------------------
+[2026-07-21 07:03:05] URL: http://localhost/dha/pages/rename.php
+Message: Uncaught SyntaxError: missing ) after argument list
+Source: http://localhost/dha/pages/rename.php:1305:89
+Stack: SyntaxError: missing ) after argument list
+--------------------------------------------------------------------------------
+[2026-07-21 07:03:14] URL: http://localhost/dha/pages/rename.php
+Message: Uncaught ReferenceError: openBrowseDialog is not defined
+Source: http://localhost/dha/pages/rename.php:286:109
+Stack: ReferenceError: openBrowseDialog is not defined
+    at HTMLButtonElement.onclick (http://localhost/dha/pages/rename.php:286:109)
+--------------------------------------------------------------------------------
+[2026-07-21 07:03:16] URL: http://localhost/dha/pages/rename.php
+Message: Uncaught ReferenceError: openBrowseDialog is not defined
+Source: http://localhost/dha/pages/rename.php:286:109
+Stack: ReferenceError: openBrowseDialog is not defined
+    at HTMLButtonElement.onclick (http://localhost/dha/pages/rename.php:286:109)
+--------------------------------------------------------------------------------
+[2026-07-21 07:03:17] URL: http://localhost/dha/pages/rename.php
+Message: Uncaught ReferenceError: openBrowseDialog is not defined
+Source: http://localhost/dha/pages/rename.php:286:109
+Stack: ReferenceError: openBrowseDialog is not defined
+    at HTMLButtonElement.onclick (http://localhost/dha/pages/rename.php:286:109)
+--------------------------------------------------------------------------------
+[2026-07-21 07:03:18] URL: http://localhost/dha/pages/rename.php
+Message: Uncaught ReferenceError: openBrowseDialog is not defined
+Source: http://localhost/dha/pages/rename.php:286:109
+Stack: ReferenceError: openBrowseDialog is not defined
+    at HTMLButtonElement.onclick (http://localhost/dha/pages/rename.php:286:109)
+--------------------------------------------------------------------------------
+[2026-07-21 07:03:18] URL: http://localhost/dha/pages/rename.php
+Message: Uncaught ReferenceError: openBrowseDialog is not defined
+Source: http://localhost/dha/pages/rename.php:286:109
+Stack: ReferenceError: openBrowseDialog is not defined
+    at HTMLButtonElement.onclick (http://localhost/dha/pages/rename.php:286:109)
+--------------------------------------------------------------------------------
+[2026-07-21 07:03:18] URL: http://localhost/dha/pages/rename.php
+Message: Uncaught ReferenceError: openBrowseDialog is not defined
+Source: http://localhost/dha/pages/rename.php:286:109
+Stack: ReferenceError: openBrowseDialog is not defined
+    at HTMLButtonElement.onclick (http://localhost/dha/pages/rename.php:286:109)
+--------------------------------------------------------------------------------
+[2026-07-21 07:03:19] URL: http://localhost/dha/pages/rename.php
+Message: Uncaught ReferenceError: openBrowseDialog is not defined
+Source: http://localhost/dha/pages/rename.php:286:109
+Stack: ReferenceError: openBrowseDialog is not defined
+    at HTMLButtonElement.onclick (http://localhost/dha/pages/rename.php:286:109)
+--------------------------------------------------------------------------------
+[2026-07-21 07:03:22] URL: http://localhost/dha/pages/rename.php
+Message: Uncaught ReferenceError: openBrowseDialog is not defined
+Source: http://localhost/dha/pages/rename.php:286:109
+Stack: ReferenceError: openBrowseDialog is not defined
+    at HTMLButtonElement.onclick (http://localhost/dha/pages/rename.php:286:109)
+--------------------------------------------------------------------------------
+[2026-07-21 07:03:23] URL: http://localhost/dha/pages/rename.php
+Message: Uncaught ReferenceError: openBrowseDialog is not defined
+Source: http://localhost/dha/pages/rename.php:286:109
+Stack: ReferenceError: openBrowseDialog is not defined
+    at HTMLButtonElement.onclick (http://localhost/dha/pages/rename.php:286:109)
+--------------------------------------------------------------------------------
+[2026-07-21 07:03:23] URL: http://localhost/dha/pages/rename.php
+Message: Uncaught ReferenceError: openBrowseDialog is not defined
+Source: http://localhost/dha/pages/rename.php:286:109
+Stack: ReferenceError: openBrowseDialog is not defined
+    at HTMLButtonElement.onclick (http://localhost/dha/pages/rename.php:286:109)
+--------------------------------------------------------------------------------
+[2026-07-21 07:03:23] URL: http://localhost/dha/pages/rename.php
+Message: Uncaught ReferenceError: openBrowseDialog is not defined
+Source: http://localhost/dha/pages/rename.php:286:109
+Stack: ReferenceError: openBrowseDialog is not defined
+    at HTMLButtonElement.onclick (http://localhost/dha/pages/rename.php:286:109)
+--------------------------------------------------------------------------------
+[2026-07-21 07:03:24] URL: http://localhost/dha/pages/rename.php
+Message: Uncaught ReferenceError: finishRename is not defined
+Source: http://localhost/dha/pages/rename.php:324:96
+Stack: ReferenceError: finishRename is not defined
+    at HTMLButtonElement.onclick (http://localhost/dha/pages/rename.php:324:96)
+--------------------------------------------------------------------------------
+[2026-07-21 07:03:25] URL: http://localhost/dha/pages/rename.php
+Message: Uncaught ReferenceError: openBrowseDialog is not defined
+Source: http://localhost/dha/pages/rename.php:286:109
+Stack: ReferenceError: openBrowseDialog is not defined
+    at HTMLButtonElement.onclick (http://localhost/dha/pages/rename.php:286:109)
+--------------------------------------------------------------------------------
+[2026-07-21 07:03:25] URL: http://localhost/dha/pages/rename.php
+Message: Uncaught ReferenceError: openBrowseDialog is not defined
+Source: http://localhost/dha/pages/rename.php:286:109
+Stack: ReferenceError: openBrowseDialog is not defined
+    at HTMLButtonElement.onclick (http://localhost/dha/pages/rename.php:286:109)
+--------------------------------------------------------------------------------
+[2026-07-21 07:03:26] URL: http://localhost/dha/pages/rename.php
+Message: Uncaught ReferenceError: openBrowseDialog is not defined
+Source: http://localhost/dha/pages/rename.php:286:109
+Stack: ReferenceError: openBrowseDialog is not defined
+    at HTMLButtonElement.onclick (http://localhost/dha/pages/rename.php:286:109)
+--------------------------------------------------------------------------------
+[2026-07-21 07:03:26] URL: http://localhost/dha/pages/rename.php
+Message: Uncaught ReferenceError: openBrowseDialog is not defined
+Source: http://localhost/dha/pages/rename.php:286:109
+Stack: ReferenceError: openBrowseDialog is not defined
+    at HTMLButtonElement.onclick (http://localhost/dha/pages/rename.php:286:109)
+--------------------------------------------------------------------------------
+[2026-07-21 07:03:28] URL: http://localhost/dha/pages/rename.php
+Message: Uncaught ReferenceError: openBrowseDialog is not defined
+Source: http://localhost/dha/pages/rename.php:286:109
+Stack: ReferenceError: openBrowseDialog is not defined
+    at HTMLButtonElement.onclick (http://localhost/dha/pages/rename.php:286:109)
+--------------------------------------------------------------------------------
+[2026-07-21 07:03:28] URL: http://localhost/dha/pages/rename.php
+Message: Uncaught ReferenceError: openBrowseDialog is not defined
+Source: http://localhost/dha/pages/rename.php:286:109
+Stack: ReferenceError: openBrowseDialog is not defined
+    at HTMLButtonElement.onclick (http://localhost/dha/pages/rename.php:286:109)
+--------------------------------------------------------------------------------
+[2026-07-21 07:03:28] URL: http://localhost/dha/pages/rename.php
+Message: Uncaught ReferenceError: openBrowseDialog is not defined
+Source: http://localhost/dha/pages/rename.php:286:109
+Stack: ReferenceError: openBrowseDialog is not defined
+    at HTMLButtonElement.onclick (http://localhost/dha/pages/rename.php:286:109)
+--------------------------------------------------------------------------------
+[2026-07-21 10:15:41] URL: http://localhost/dha/pages/scan.php
+Message: Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
+Source: http://localhost/dha/pages/scan.php:625:12
+Stack: TypeError: Cannot read properties of null (reading 'addEventListener')
+    at http://localhost/dha/pages/scan.php:625:12
+--------------------------------------------------------------------------------
+[2026-07-21 10:15:44] URL: http://localhost/dha/pages/scan.php
+Message: Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
+Source: http://localhost/dha/pages/scan.php:625:12
+Stack: TypeError: Cannot read properties of null (reading 'addEventListener')
+    at http://localhost/dha/pages/scan.php:625:12
+--------------------------------------------------------------------------------
+[2026-07-21 10:18:15] URL: http://localhost/dha/pages/scan.php
+Message: Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
+Source: http://localhost/dha/pages/scan.php:625:12
+Stack: TypeError: Cannot read properties of null (reading 'addEventListener')
+    at http://localhost/dha/pages/scan.php:625:12
+--------------------------------------------------------------------------------
+[2026-07-21 10:19:40] URL: http://localhost/dha/pages/scan.php
+Message: Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
+Source: http://localhost/dha/pages/scan.php:508:12
+Stack: TypeError: Cannot read properties of null (reading 'addEventListener')
+    at http://localhost/dha/pages/scan.php:508:12
+--------------------------------------------------------------------------------
+[2026-07-21 11:27:36] URL: http://localhost/dha/pages/scan.php
+Message: Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
+Source: http://localhost/dha/pages/scan.php:508:12
+Stack: TypeError: Cannot read properties of null (reading 'addEventListener')
+    at http://localhost/dha/pages/scan.php:508:12
+--------------------------------------------------------------------------------
+[2026-07-21 11:30:30] URL: http://localhost/dha/pages/scan.php
+Message: Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
+Source: http://localhost/dha/pages/scan.php:508:12
+Stack: TypeError: Cannot read properties of null (reading 'addEventListener')
+    at http://localhost/dha/pages/scan.php:508:12
+--------------------------------------------------------------------------------
+[2026-07-21 11:30:44] URL: http://localhost/dha/pages/scan.php
+Message: Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
+Source: http://localhost/dha/pages/scan.php:508:12
+Stack: TypeError: Cannot read properties of null (reading 'addEventListener')
+    at http://localhost/dha/pages/scan.php:508:12
+--------------------------------------------------------------------------------
+[2026-07-22 06:41:32] URL: http://localhost/dha/pages/scan.php
+Message: Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
+Source: http://localhost/dha/pages/scan.php:508:12
+Stack: TypeError: Cannot read properties of null (reading 'addEventListener')
+    at http://localhost/dha/pages/scan.php:508:12
+--------------------------------------------------------------------------------
+[2026-07-22 07:33:41] URL: http://localhost/dha/pages/validate.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/validate.php:1243:9
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/validate.php:1243:9)
+--------------------------------------------------------------------------------
+[2026-07-22 07:40:48] URL: http://localhost/dha/pages/validate.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/validate.php:1637:9
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/validate.php:1637:9)
+--------------------------------------------------------------------------------
+[2026-07-22 07:40:50] URL: http://localhost/dha/pages/validate.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/validate.php:1628:9
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/validate.php:1628:9)
+--------------------------------------------------------------------------------
+[2026-07-22 07:40:53] URL: http://localhost/dha/pages/validate.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/validate.php:1619:9
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/validate.php:1619:9)
+--------------------------------------------------------------------------------
+[2026-07-22 07:40:55] URL: http://localhost/dha/pages/validate.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/validate.php:1607:9
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/validate.php:1607:9)
+--------------------------------------------------------------------------------
+[2026-07-22 07:41:23] URL: http://localhost/dha/pages/validate.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/validate.php:1284:9
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/validate.php:1284:9)
+--------------------------------------------------------------------------------
+[2026-07-22 07:42:09] URL: http://localhost/dha/pages/validate.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/validate.php:1325:9
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/validate.php:1325:9)
+--------------------------------------------------------------------------------
+[2026-07-22 07:44:01] URL: http://localhost/dha/pages/validate.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/validate.php:1450:9
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/validate.php:1450:9)
+--------------------------------------------------------------------------------
+[2026-07-22 07:44:04] URL: http://localhost/dha/pages/validate.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/validate.php:1441:9
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/validate.php:1441:9)
+--------------------------------------------------------------------------------
+[2026-07-22 07:44:06] URL: http://localhost/dha/pages/validate.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/validate.php:1432:9
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/validate.php:1432:9)
+--------------------------------------------------------------------------------
+[2026-07-22 07:44:08] URL: http://localhost/dha/pages/validate.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/validate.php:1420:9
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/validate.php:1420:9)
+--------------------------------------------------------------------------------
+[2026-07-22 08:23:09] URL: http://localhost/dha/pages/scan.php
+Message: Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
+Source: http://localhost/dha/pages/scan.php:508:12
+Stack: TypeError: Cannot read properties of null (reading 'addEventListener')
+    at http://localhost/dha/pages/scan.php:508:12
+--------------------------------------------------------------------------------
+[2026-07-22 08:23:19] URL: http://localhost/dha/pages/scan.php
+Message: Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
+Source: http://localhost/dha/pages/scan.php:508:12
+Stack: TypeError: Cannot read properties of null (reading 'addEventListener')
+    at http://localhost/dha/pages/scan.php:508:12
+--------------------------------------------------------------------------------
+[2026-07-22 08:31:39] URL: http://localhost/dha/pages/scan.php
+Message: Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
+Source: http://localhost/dha/pages/scan.php:508:12
+Stack: TypeError: Cannot read properties of null (reading 'addEventListener')
+    at http://localhost/dha/pages/scan.php:508:12
+--------------------------------------------------------------------------------
+[2026-07-22 08:31:41] URL: http://localhost/dha/pages/scan.php
+Message: Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
+Source: http://localhost/dha/pages/scan.php:508:12
+Stack: TypeError: Cannot read properties of null (reading 'addEventListener')
+    at http://localhost/dha/pages/scan.php:508:12
+--------------------------------------------------------------------------------
+[2026-07-22 09:25:23] URL: http://localhost/dha/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/users.php:633:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/users.php:633:11)
+--------------------------------------------------------------------------------
+[2026-07-22 09:31:34] URL: http://localhost/dha/pages/validate.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/validate.php:1707:9
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/validate.php:1707:9)
+--------------------------------------------------------------------------------
+[2026-07-22 09:31:37] URL: http://localhost/dha/pages/validate.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/validate.php:1698:9
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/validate.php:1698:9)
+--------------------------------------------------------------------------------
+[2026-07-22 09:31:40] URL: http://localhost/dha/pages/validate.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/validate.php:1687:9
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/validate.php:1687:9)
+--------------------------------------------------------------------------------
+[2026-07-22 09:31:43] URL: http://localhost/dha/pages/validate.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/validate.php:1678:9
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/validate.php:1678:9)
+--------------------------------------------------------------------------------
+[2026-07-22 09:31:46] URL: http://localhost/dha/pages/validate.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/validate.php:1666:9
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/validate.php:1666:9)
+--------------------------------------------------------------------------------
+[2026-07-22 12:00:20] URL: http://localhost/dha/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/users.php:633:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/users.php:633:11)
+--------------------------------------------------------------------------------
+[2026-07-24 09:04:10] URL: http://localhost/dha/pages/scan.php
+Message: Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
+Source: http://localhost/dha/pages/scan.php:508:12
+Stack: TypeError: Cannot read properties of null (reading 'addEventListener')
+    at http://localhost/dha/pages/scan.php:508:12
+--------------------------------------------------------------------------------
+[2026-07-24 09:34:31] URL: http://localhost/dha/pages/scan.php
+Message: Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
+Source: http://localhost/dha/pages/scan.php:508:12
+Stack: TypeError: Cannot read properties of null (reading 'addEventListener')
+    at http://localhost/dha/pages/scan.php:508:12
+--------------------------------------------------------------------------------
+[2026-07-24 09:39:26] URL: http://localhost/dha/pages/scan.php
+Message: Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
+Source: http://localhost/dha/pages/scan.php:508:12
+Stack: TypeError: Cannot read properties of null (reading 'addEventListener')
+    at http://localhost/dha/pages/scan.php:508:12
+--------------------------------------------------------------------------------
+[2026-07-25 16:29:04] URL: http://localhost/dha/pages/scan.php
+Message: Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
+Source: http://localhost/dha/pages/scan.php:508:12
+Stack: TypeError: Cannot read properties of null (reading 'addEventListener')
+    at http://localhost/dha/pages/scan.php:508:12
+--------------------------------------------------------------------------------
+[2026-07-26 13:51:09] URL: http://localhost/dha/pages/scan.php
+Message: Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
+Source: http://localhost/dha/pages/scan.php:509:12
+Stack: TypeError: Cannot read properties of null (reading 'addEventListener')
+    at http://localhost/dha/pages/scan.php:509:12
+--------------------------------------------------------------------------------
+[2026-07-26 13:52:02] URL: http://localhost/dha/pages/scan.php
+Message: Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
+Source: http://localhost/dha/pages/scan.php:508:12
+Stack: TypeError: Cannot read properties of null (reading 'addEventListener')
+    at http://localhost/dha/pages/scan.php:508:12
+--------------------------------------------------------------------------------
+[2026-07-26 13:57:24] URL: http://localhost/dha/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/users.php:593:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/users.php:593:11)
+--------------------------------------------------------------------------------
+[2026-07-26 13:58:06] URL: http://localhost/dha/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/users.php:633:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/users.php:633:11)
+--------------------------------------------------------------------------------
+[2026-07-26 14:16:19] URL: http://localhost/dha/pages/scan.php
+Message: Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
+Source: http://localhost/dha/pages/scan.php:508:12
+Stack: TypeError: Cannot read properties of null (reading 'addEventListener')
+    at http://localhost/dha/pages/scan.php:508:12
+--------------------------------------------------------------------------------
+[2026-07-27 06:52:07] URL: http://localhost/dha/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/users.php:673:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/users.php:673:11)
+--------------------------------------------------------------------------------
+[2026-07-27 06:52:20] URL: http://localhost/dha/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/users.php:673:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/users.php:673:11)
+--------------------------------------------------------------------------------
+[2026-07-27 07:10:42] URL: http://localhost/dha/pages/scan.php
+Message: Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
+Source: http://localhost/dha/pages/scan.php:508:12
+Stack: TypeError: Cannot read properties of null (reading 'addEventListener')
+    at http://localhost/dha/pages/scan.php:508:12
+--------------------------------------------------------------------------------
+[2026-07-27 07:10:43] URL: http://localhost/dha/pages/scan.php
+Message: Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
+Source: http://localhost/dha/pages/scan.php:508:12
+Stack: TypeError: Cannot read properties of null (reading 'addEventListener')
+    at http://localhost/dha/pages/scan.php:508:12
+--------------------------------------------------------------------------------
+[2026-07-27 07:22:45] URL: http://localhost/dha/pages/scan.php
+Message: Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
+Source: http://localhost/dha/pages/scan.php:508:12
+Stack: TypeError: Cannot read properties of null (reading 'addEventListener')
+    at http://localhost/dha/pages/scan.php:508:12
+--------------------------------------------------------------------------------
+[2026-07-27 07:22:46] URL: http://localhost/dha/pages/scan.php
+Message: Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
+Source: http://localhost/dha/pages/scan.php:508:12
+Stack: TypeError: Cannot read properties of null (reading 'addEventListener')
+    at http://localhost/dha/pages/scan.php:508:12
+--------------------------------------------------------------------------------
+[2026-07-27 07:22:47] URL: http://localhost/dha/pages/scan.php
+Message: Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
+Source: http://localhost/dha/pages/scan.php:508:12
+Stack: TypeError: Cannot read properties of null (reading 'addEventListener')
+    at http://localhost/dha/pages/scan.php:508:12
+--------------------------------------------------------------------------------
+[2026-07-27 07:22:47] URL: http://localhost/dha/pages/scan.php
+Message: Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
+Source: http://localhost/dha/pages/scan.php:508:12
+Stack: TypeError: Cannot read properties of null (reading 'addEventListener')
+    at http://localhost/dha/pages/scan.php:508:12
+--------------------------------------------------------------------------------
+[2026-07-27 07:22:47] URL: http://localhost/dha/pages/scan.php
+Message: Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
+Source: http://localhost/dha/pages/scan.php:508:12
+Stack: TypeError: Cannot read properties of null (reading 'addEventListener')
+    at http://localhost/dha/pages/scan.php:508:12
+--------------------------------------------------------------------------------
+[2026-07-27 07:22:47] URL: http://localhost/dha/pages/scan.php
+Message: Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
+Source: http://localhost/dha/pages/scan.php:508:12
+Stack: TypeError: Cannot read properties of null (reading 'addEventListener')
+    at http://localhost/dha/pages/scan.php:508:12
+--------------------------------------------------------------------------------
+[2026-07-27 07:22:47] URL: http://localhost/dha/pages/scan.php
+Message: Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
+Source: http://localhost/dha/pages/scan.php:508:12
+Stack: TypeError: Cannot read properties of null (reading 'addEventListener')
+    at http://localhost/dha/pages/scan.php:508:12
+--------------------------------------------------------------------------------
+[2026-07-28 07:11:17] URL: http://localhost/dha/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/users.php:633:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/users.php:633:11)
+--------------------------------------------------------------------------------
+[2026-07-28 07:11:39] URL: http://localhost/dha/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/dha/pages/users.php:673:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/dha/pages/users.php:673:11)
+--------------------------------------------------------------------------------
+[2026-07-29 21:05:37] URL: http://localhost/DHA__A/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/DHA__A/pages/users.php:713:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/DHA__A/pages/users.php:713:11)
+--------------------------------------------------------------------------------
+[2026-07-29 22:00:25] URL: http://localhost/DHA_A_cleaned/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/DHA_A_cleaned/pages/users.php:673:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/DHA_A_cleaned/pages/users.php:673:11)
+--------------------------------------------------------------------------------
+[2026-07-29 22:00:30] URL: http://localhost/DHA_A_cleaned/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/DHA_A_cleaned/pages/users.php:633:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/DHA_A_cleaned/pages/users.php:633:11)
+--------------------------------------------------------------------------------
+[2026-07-29 22:00:33] URL: http://localhost/DHA_A_cleaned/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/DHA_A_cleaned/pages/users.php:593:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/DHA_A_cleaned/pages/users.php:593:11)
+--------------------------------------------------------------------------------
+[2026-07-29 22:01:12] URL: http://localhost/DHA_A_cleaned/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/DHA_A_cleaned/pages/users.php:633:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/DHA_A_cleaned/pages/users.php:633:11)
+--------------------------------------------------------------------------------
+[2026-07-30 08:13:53] URL: http://localhost/DHA_A_cleaned/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/DHA_A_cleaned/pages/users.php:673:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/DHA_A_cleaned/pages/users.php:673:11)
+--------------------------------------------------------------------------------
+[2026-07-30 09:07:17] URL: https://10.11.107.158/DHA_A_cleaned/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: https://10.11.107.158/DHA_A_cleaned/pages/users.php:713:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (https://10.11.107.158/DHA_A_cleaned/pages/users.php:713:11)
+--------------------------------------------------------------------------------
+[2026-08-10 06:52:38] URL: http://localhost/DHA_A_cleaned/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/DHA_A_cleaned/pages/users.php:673:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/DHA_A_cleaned/pages/users.php:673:11)
+--------------------------------------------------------------------------------
+[2026-08-10 08:44:37] URL: http://localhost/DHA_A_cleaned/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/DHA_A_cleaned/pages/users.php:633:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/DHA_A_cleaned/pages/users.php:633:11)
+--------------------------------------------------------------------------------
+[2026-08-10 08:44:42] URL: http://localhost/DHA_A_cleaned/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/DHA_A_cleaned/pages/users.php:593:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/DHA_A_cleaned/pages/users.php:593:11)
+--------------------------------------------------------------------------------
+[2026-08-10 19:51:37] URL: http://localhost/DHA_A_cleaned/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/DHA_A_cleaned/pages/users.php:673:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/DHA_A_cleaned/pages/users.php:673:11)
+--------------------------------------------------------------------------------
+[2026-08-10 23:02:17] URL: http://localhost/DHA_A_cleaned/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/DHA_A_cleaned/pages/users.php:713:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/DHA_A_cleaned/pages/users.php:713:11)
+--------------------------------------------------------------------------------
+[2026-08-11 06:57:19] URL: http://localhost/DHA_A_cleaned/pages/users.php
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/DHA_A_cleaned/pages/users.php:673:11
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/DHA_A_cleaned/pages/users.php:673:11)
+--------------------------------------------------------------------------------
+[2026-08-12 06:44:13] URL: http://localhost/DHA_A_cleaned/pages/validate.php?folder_name=10-X-001199
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/DHA_A_cleaned/pages/validate.php?folder_name=10-X-001199:1336:7
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/DHA_A_cleaned/pages/validate.php?folder_name=10-X-001199:1336:7)
+--------------------------------------------------------------------------------
+[2026-08-12 06:53:58] URL: http://localhost/DHA_A_cleaned/pages/validate.php?folder_name=10-X-001199
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/DHA_A_cleaned/pages/validate.php?folder_name=10-X-001199:1338:7
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/DHA_A_cleaned/pages/validate.php?folder_name=10-X-001199:1338:7)
+--------------------------------------------------------------------------------
+[2026-08-12 07:21:53] URL: http://localhost/DHA_A_cleaned/pages/validate.php?folder_name=10-X-001199
+Message: Uncaught ReferenceError: showToast is not defined
+Source: http://localhost/DHA_A_cleaned/pages/validate.php?folder_name=10-X-001199:1338:7
+Stack: ReferenceError: showToast is not defined
+    at HTMLDocument.<anonymous> (http://localhost/DHA_A_cleaned/pages/validate.php?folder_name=10-X-001199:1338:7)
+--------------------------------------------------------------------------------

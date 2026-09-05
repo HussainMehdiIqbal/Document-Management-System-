@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DHA Document Management System — Project Documentation</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+    :root {
+      --primary-color: #0f1f3d;
+      --secondary-color: #1e4db7;
+      --accent-color: #3b82f6;
+      --text-dark: #1e293b;
+      --text-muted: #64748b;
+      --bg-light: #f8fafc;
+      --border-color: #cbd5e1;
+      --success-color: #16a34a;
+      --danger-color: #dc2626;
+      --warning-color: #d97706;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: var(--text-dark);
+      background-color: #ffffff;
+      line-height: 1.6;
+      font-size: 14px;
+    }
+
+    /* Print styling */
+    @page {
+      size: A4;
+      margin: 20mm 15mm 20mm 15mm;
+    }
+
+    @media print {
+      body {
+        background-color: #ffffff;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      .page-break {
+        page-break-after: always;
+        break-after: page;
+        height: 0;
+        display: block;
+        clear: both;
+      }
+      .no-break {
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+      header, footer {
+        display: none;
+      }
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 10px;
+    }
+
+    /* Cover Page */
+    .cover-page {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 60px 40px;
+      page-break-after: always;
+      break-after: page;
+      border: 2px solid var(--primary-color);
+      position: relative;
+    }
+
+    .cover-header {
+      border-bottom: 4px solid var(--secondary-color);
+      padding-bottom: 20px;
+    }
+
+    .cover-title {
+      font-size: 34px;
+      font-weight: 800;
+      color: var(--primary-color);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      line-height: 1.2;
+    }
+
+    .cover-subtitle {
+      font-size: 18px;
+      font-weight: 500;
+      color: var(--secondary-color);
+      margin-top: 10px;
+    }
+
+    .cover-body {
+      margin: auto 0;
+    }
+
+    .cover-badge {
+      display: inline-block;
+      background-color: var(--primary-color);
+      color: #ffffff;
+      padding: 6px 12px;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      border-radius: 4px;
+      margin-bottom: 20px;
+    }
+
+    .cover-description {
+      font-size: 15px;
+      color: var(--text-muted);
+      max-width: 600px;
+      margin-top: 15px;
+    }
+
+    .cover-footer {
+      border-top: 1px solid var(--border-color);
+      padding-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+
+    .meta-item {
+      font-size: 12px;
+    }
+
+    .meta-label {
+      font-weight: 600;
+      color: var(--primary-color);
+      text-transform: uppercase;
+      font-size: 10px;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .meta-val {
+      color: var(--text-dark);
+      font-weight: 500;
+    }
+
+    /* Section Styles */
+    section {
+      padding: 20px 0;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--primary-color);
+      border-left: 5px solid var(--secondary-color);
+      padding-left: 10px;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      page-break-after: avoid;
+    }
+
+    h3 {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--secondary-color);
+      margin-top: 20px;
+      margin-bottom: 10px;
+      page-break-after: avoid;
+    }
+
+    p {
+      margin-bottom: 12px;
+      color: var(--text-dark);
+      text-align: justify;
+    }
+
+    /* Lists */
+    ul, ol {
+      margin-left: 20px;
+      margin-bottom: 15px;
+    }
+
+    li {
+      margin-bottom: 6px;
+      color: var(--text-dark);
+    }
+
+    /* Tech Stack Grid */
+    .tech-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+
+    .tech-card {
+      background-color: var(--bg-light);
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      padding: 15px;
+    }
+
+    .tech-title {
+      font-weight: 700;
+      font-size: 14px;
+      color: var(--primary-color);
+      margin-bottom: 5px;
+      display: flex;
+      align-items: center;
+    }
+
+    .tech-desc {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    /* Tables */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 15px 0 25px 0;
+      font-size: 13px;
+      page-break-inside: avoid;
+    }
+
+    th, td {
+      border: 1px solid var(--border-color);
+      padding: 8px 12px;
+      text-align: left;
+    }
+
+    th {
+      background-color: var(--primary-color);
+      color: #ffffff;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 11px;
+    }
+
+    tr:nth-child(even) {
+      background-color: var(--bg-light);
+    }
+
+    /* Database Table Structure Box */
+    .db-table-box {
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      margin-bottom: 20px;
+      page-break-inside: avoid;
+    }
+
+    .db-table-header {
+      background-color: #f1f5f9;
+      padding: 10px 15px;
+      font-weight: 700;
+      font-size: 14px;
+      border-bottom: 1px solid var(--border-color);
+      color: var(--primary-color);
+    }
+
+    .db-table-body {
+      padding: 12px 15px;
+    }
+
+    .db-desc {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+    }
+
+    .pk {
+      font-weight: 700;
+      color: #b45309;
+    }
+
+    .fk {
+      font-weight: 700;
+      color: #0369a1;
+    }
+
+    /* Workflow Cards */
+    .flow-step {
+      display: flex;
+      margin-bottom: 15px;
+      page-break-inside: avoid;
+    }
+
+    .step-number {
+      background-color: var(--secondary-color);
+      color: #ffffff;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 700;
+      font-size: 12px;
+      margin-right: 15px;
+      flex-shrink: 0;
+    }
+
+    .step-content {
+      background-color: var(--bg-light);
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      padding: 12px 15px;
+      flex-grow: 1;
+    }
+
+    .step-title {
+      font-weight: 700;
+      color: var(--primary-color);
+      margin-bottom: 4px;
+    }
+
+    .step-text {
+      font-size: 12.5px;
+      color: var(--text-dark);
+    }
+
+    /* Role Badges */
+    .badge {
+      display: inline-block;
+      padding: 2px 6px;
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      border-radius: 3px;
+    }
+
+    .badge-admin { background-color: #fee2e2; color: #991b1b; }
+    .badge-operator { background-color: #dcfce7; color: #166534; }
+    .badge-validator { background-color: #dbeafe; color: #1e40af; }
+
+    /* Q&A Section */
+    .qa-item {
+      background-color: #ffffff;
+      border-left: 4px solid var(--accent-color);
+      padding: 12px 15px;
+      margin-bottom: 15px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+      border-top: 1px solid #f1f5f9;
+      border-right: 1px solid #f1f5f9;
+      border-bottom: 1px solid #f1f5f9;
+      border-radius: 0 6px 6px 0;
+      page-break-inside: avoid;
+    }
+
+    .qa-question {
+      font-weight: 700;
+      color: var(--primary-color);
+      margin-bottom: 6px;
+      font-size: 13.5px;
+    }
+
+    .qa-answer {
+      font-size: 12.5px;
+      color: var(--text-dark);
+      text-align: justify;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- COVER PAGE -->
+    <div class="cover-page">
+      <div class="cover-header">
+        <div class="cover-title">DHA Document<br>Management System</div>
+        <div class="cover-subtitle">Project Documentation & Viva Preparation Guide</div>
+      </div>
+
+      <div class="cover-body">
+        <div class="cover-badge">Academic & Professional Reference</div>
+        <p class="cover-description">
+          A robust web application designed for the Defence Housing Authority (DHA) to digitize, index, rename, validate, and manage corporate and land records securely. This system implements a full three-tier role access model (Admin, Operator, Validator) along with automated auditing and standard tagging structures.
+        </p>
+      </div>
+
+      <div class="cover-footer">
+        <div class="meta-item">
+          <span class="meta-label">Primary Technology Stack</span>
+          <span class="meta-val">PHP 8.0+ / MySQL / JavaScript</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Document Date</span>
+          <span class="meta-val">July 14, 2026</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE BREAK -->
+    <div class="page-break"></div>
+
+    <!-- SECTION 1: OVERVIEW -->
+    <section>
+      <h2>1. Project Overview & Objectives</h2>
+      <p>
+        The <strong>DHA Document Management System (DMS)</strong> is custom-engineered to solve the physical document tracking and storage challenges faced by DHA offices. In municipal and real estate operations, land records, citizen files, maps, and regulatory notices must be indexed and searched rapidly.
+      </p>
+      <p>
+        This system establishes a secure digital workflow that moves from scanning physical records to structured database tracking, validator screening, and executive monitoring. By implementing a standardized renaming protocol, it eliminates typographical discrepancies and duplicate records.
+      </p>
+      <h3>Core Project Goals:</h3>
+      <ul>
+        <li><strong>Role-Based Audited Workflow</strong>: Segment responsibilities cleanly among staff who scan/upload, supervisors who validate, and executives who govern.</li>
+        <li><strong>File Standardization</strong>: Enforce naming conventions (e.g. <code>DHA-LHR-P1-CNIC-001.pdf</code>) using key metadata tags like Branch, Doc Type, File Number, Phase, Plot, and Doc Year.</li>
+        <li><strong>Security and Integrity</strong>: Prevent SQL injection, unauthorized dashboard access, and session hijack attempts.</li>
+        <li><strong>Visual Analytics</strong>: Present real-time scan statistics, approval rates, and operator activities to administrators.</li>
+      </ul>
+    </section>
+
+    <!-- SECTION 2: TECH STACK -->
+    <section class="no-break">
+      <h2>2. Technology Stack & Architecture</h2>
+      <p>The system is built on standard web development technologies to ensure high compatibility, lightweight footprint, and quick deployment.</p>
+      
+      <div class="tech-grid">
+        <div class="tech-card">
+          <div class="tech-title">PHP 8.0+ (Backend Scripting)</div>
+          <div class="tech-desc">Handles session validation, core API requests, sanitization, database CRUD operations, and file storage mappings.</div>
+        </div>
+        <div class="tech-card">
+          <div class="tech-title">MySQL 5.7+ / MariaDB (Database)</div>
+          <div class="tech-desc">Provides relational mapping for users, folders, documents, validations, and logs on port 3307.</div>
+        </div>
+        <div class="tech-card">
+          <div class="tech-title">Bootstrap 5 & Vanilla CSS (Front-End)</div>
+          <div class="tech-desc">Renders a dark-themed responsive sidebar, card metrics, and interactive forms with Font Awesome integration.</div>
+        </div>
+        <div class="tech-card">
+          <div class="tech-title">JavaScript & Chart.js (Analytics)</div>
+          <div class="tech-desc">Generates daily upload trends, status distributions (doughnut charts), and user contribution metrics dynamically.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: USER ROLES -->
+    <section>
+      <h2>3. Role-Based Access Control (RBAC)</h2>
+      <p>To enforce accountability, the system restricts features based on the <code>role_id</code> defined in the database session:</p>
+      
+      <table>
+        <thead>
+          <tr>
+            <th>Role</th>
+            <th>Code ID</th>
+            <th>Primary Access Permissions</th>
+            <th>Core Pages Authorized</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="badge badge-admin">Admin</span></td>
+            <td>1</td>
+            <td>Full system access. Can create/suspend users, scan, rename, validate, view audit logs, and download reports.</td>
+            <td>All files (<code>users.php</code>, <code>dashboard.php</code>, etc.)</td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-operator">Operator</span></td>
+            <td>2</td>
+            <td>Responsible for digitizing records. Can upload scanned files, input initial metadata, and execute file standardization.</td>
+            <td><code>scan.php</code>, <code>rename.php</code>, <code>folders.php</code></td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-validator">Validator</span></td>
+            <td>3</td>
+            <td>Responsible for compliance. Can view pending metadata files, review scanned imagery, and Approve/Validate after Correction with comments.</td>
+            <td><code>validate.php</code>, <code>folders.php</code></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- PAGE BREAK -->
+    <div class="page-break"></div>
+
+    <!-- SECTION 4: DATABASE SCHEMA -->
+    <section>
+      <h2>4. Database Schema Design</h2>
+      <p>The system runs on the <code>dms_database</code> database schema. The design normalizes document metadata, validation records, and logs to ensure performance and relational integrity.</p>
+
+      <!-- ROLES -->
+      <div class="db-table-box">
+        <div class="db-table-header">Table: roles</div>
+        <div class="db-table-body">
+          <div class="db-desc">Defines user permission roles.</div>
+          <table>
+            <thead>
+              <tr>
+                <th>Column</th>
+                <th>Type</th>
+                <th>Attributes</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="pk">role_id</td>
+                <td>INT</td>
+                <td>PK, Auto Increment</td>
+                <td>Unique ID of the role.</td>
+              </tr>
+              <tr>
+                <td>role_name</td>
+                <td>VARCHAR(50)</td>
+                <td>NOT NULL</td>
+                <td>Name of the role (e.g. Admin, Operator).</td>
+              </tr>
+              <tr>
+                <td>description</td>
+                <td>VARCHAR(250)</td>
+                <td>NULL</td>
+                <td>Explanation of the role's access boundaries.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- USERS -->
+      <div class="db-table-box">
+        <div class="db-table-header">Table: users</div>
+        <div class="db-table-body">
+          <div class="db-desc">Stores user account details, encrypted passwords, and status credentials.</div>
+          <table>
+            <thead>
+              <tr>
+                <th>Column</th>
+                <th>Type</th>
+                <th>Attributes</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="pk">user_id</td>
+                <td>INT</td>
+                <td>PK, Auto Increment</td>
+                <td>Unique ID of the user.</td>
+              </tr>
+              <tr>
+                <td>username</td>
+                <td>VARCHAR(50)</td>
+                <td>NOT NULL, UNIQUE</td>
+                <td>System login handler.</td>
+              </tr>
+              <tr>
+                <td>password_hash</td>
+                <td>VARCHAR(255)</td>
+                <td>NOT NULL</td>
+                <td>Encrypted using PHP's <code>password_hash()</code>.</td>
+              </tr>
+              <tr>
+                <td class="fk">role_id</td>
+                <td>INT</td>
+                <td>FK to roles.role_id</td>
+                <td>Determines privileges.</td>
+              </tr>
+              <tr>
+                <td>status</td>
+                <td>ENUM</td>
+                <td>'active', 'inactive', 'suspended'</td>
+                <td>Suspended/inactive users are denied access.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- DOCUMENTS -->
+      <div class="db-table-box">
+        <div class="db-table-header">Table: documents</div>
+        <div class="db-table-body">
+          <div class="db-desc">Main index containing metadata, file parameters, and workflow parameters.</div>
+          <table>
+            <thead>
+              <tr>
+                <th>Column</th>
+                <th>Type</th>
+                <th>Attributes</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="pk">document_id</td>
+                <td>INT</td>
+                <td>PK, Auto Increment</td>
+                <td>Unique ID of the document.</td>
+              </tr>
+              <tr>
+                <td>raw_filename</td>
+                <td>VARCHAR(255)</td>
+                <td>NOT NULL</td>
+                <td>Original filename uploaded.</td>
+              </tr>
+              <tr>
+                <td>renamed_filename</td>
+                <td>VARCHAR(255)</td>
+                <td>NULL</td>
+                <td>Standardized name after Operator tagging.</td>
+              </tr>
+              <tr>
+                <td>branch, doc_type, file_no</td>
+                <td>VARCHAR(50)</td>
+                <td>NULL</td>
+                <td>Indexing metadata tags.</td>
+              </tr>
+              <tr>
+                <td>status</td>
+                <td>ENUM</td>
+                <td>'pending', 'approved', 'changed'</td>
+                <td>Current state in validation workflow.</td>
+              </tr>
+              <tr>
+                <td class="fk">folder_id</td>
+                <td>INT</td>
+                <td>FK to folders.folder_id</td>
+                <td>Associated folder grouping.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE BREAK -->
+    <div class="page-break"></div>
+
+    <!-- SECTION 5: WORKFLOW -->
+    <section>
+      <h2>5. Step-by-Step System Workflow</h2>
+      <p>How a physical document is digitized and processed through the system:</p>
+
+      <!-- STEP 1 -->
+      <div class="flow-step">
+        <div class="step-number">1</div>
+        <div class="step-content">
+          <div class="step-title">Authentication & Access Control (login.php)</div>
+          <div class="step-text">
+            Users supply usernames and passwords. The backend performs <code>password_verify()</code>. Active sessions are established with specific roles loaded into <code>$_SESSION['user_role_id']</code>. An audit log entry is written for compliance.
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 2 -->
+      <div class="flow-step">
+        <div class="step-number">2</div>
+        <div class="step-content">
+          <div class="step-title">Folder Setup (folders.php)</div>
+          <div class="step-text">
+            An Operator or Admin creates a logical folder container mapped to a specific physical cabinet or collection (e.g. "DHA Lahore — Phase 1 Records").
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 3 -->
+      <div class="flow-step">
+        <div class="step-number">3</div>
+        <div class="step-content">
+          <div class="step-title">Scan & Upload (scan.php)</div>
+          <div class="step-text">
+            The Operator uploads raw files (PDFs, images) specifying basic data. The files are securely deposited into the <code>uploads/</code> directory, and initial database documents are written with a <code>pending</code> status.
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 4 -->
+      <div class="flow-step">
+        <div class="step-number">4</div>
+        <div class="step-content">
+          <div class="step-title">Standardized Renaming (rename.php)</div>
+          <div class="step-text">
+            The Operator reviews the raw document, inputs specific tags (Branch, Doc Type, File Number, Phase, Plot, Doc Year), and triggers the standardization. The system generates a clean name (e.g. <code>DHA-LHR-P1-CNIC-001.pdf</code>) and updates the records.
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 5 -->
+      <div class="flow-step">
+        <div class="step-number">5</div>
+        <div class="step-content">
+          <div class="step-title">Validator Auditing (validate.php)</div>
+          <div class="step-text">
+            The Validator reviews the standard filename, metadata fields, and physical image. They submit a decision: <strong>Approve</strong> (moves status to approved), <strong>Validate after Correction</strong> (moves status to changed), or <strong>Needs Revision</strong>. A formal <code>validations</code> record is generated containing audit remarks.
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 6 -->
+      <div class="flow-step">
+        <div class="step-number">6</div>
+        <div class="step-content">
+          <div class="step-title">Reporting & Monitoring (reports.php & dashboard.php)</div>
+          <div class="step-text">
+            Administrators monitor upload metrics, individual operator scan velocities, and approval ratios dynamically using color-coded graphs powered by Chart.js.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE BREAK -->
+    <div class="page-break"></div>
+
+    <!-- SECTION 6: VIVA PREPARATION QUESTIONS -->
+    <section>
+      <h2>6. Comprehensive Viva Q&amp;A Guide</h2>
+      <p>Prepare for your project presentation (Viva) with these potential questions that examiners might ask about your application:</p>
+
+      <!-- Q1 -->
+      <div class="qa-item">
+        <div class="qa-question">Q1: Which backend language is used, and what is its main role in this project?</div>
+        <div class="qa-answer">
+          <strong>Answer:</strong> The project uses <strong>PHP 8.0+</strong> (specifically configured via MySQLi extension). PHP acts as the server-side logic layer. It parses requests, enforces security sessions using <code>session_start()</code>, filters input parameters to prevent cross-site scripting (XSS), communicates with the database, and processes files uploaded to the filesystem.
+        </div>
+      </div>
+
+      <!-- Q2 -->
+      <div class="qa-item">
+        <div class="qa-question">Q2: How are user passwords secured? If I inspect the database, will I see plain passwords?</div>
+        <div class="qa-answer">
+          <strong>Answer:</strong> Passwords are not saved in plain text. They are securely encrypted using the industry-standard Blowfish hashing algorithm (bcrypt) via PHP's built-in <code>password_hash($password, PASSWORD_DEFAULT)</code> function. When a user logs in, the system compares the input password against this database hash using <code>password_verify()</code>, protecting the credentials from exposure if the database is compromised.
+        </div>
+      </div>
+
+      <!-- Q3 -->
+      <div class="qa-item">
+        <div class="qa-question">Q3: How does the system restrict a standard Operator from accessing Admin pages like User Management?</div>
+        <div class="qa-answer">
+          <strong>Answer:</strong> The system enforces Role-Based Access Control (RBAC). Upon login, the user's role ID is stored in <code>$_SESSION['user_role_id']</code>. On protected pages like <code>users.php</code>, there is an absolute check: <code>if (getUserRoleId() != 1) { header('Location: ../dashboard.php?msg=unauthorized'); exit(); }</code>. This terminates execution immediately for non-admin accounts.
+        </div>
+      </div>
+
+      <!-- Q4 -->
+      <div class="qa-item">
+        <div class="qa-question">Q4: What is the purpose of the activity_log table, and how does it get populated?</div>
+        <div class="qa-answer">
+          <strong>Answer:</strong> The <code>activity_log</code> table tracks system modifications for accountability. It is populated by the global helper function <code>logActivity($conn, $userId, $actionType, $description)</code>. Whenever an action occurs (e.g. login, folder creation, doc upload, renaming, validator approvals), this function inserts a log entry linking to the executing user and targets.
+        </div>
+      </div>
+
+      <!-- Q5 -->
+      <div class="qa-item">
+        <div class="qa-question">Q5: Explain the connection configuration. What port does MySQL use here?</div>
+        <div class="qa-answer">
+          <strong>Answer:</strong> The configuration is centralized in <code>includes/config.php</code>. It connects to the MySQL server on host <code>127.0.0.1</code> using port <code>3307</code>, configured dynamically using PHP's native <code>new mysqli()</code>. Centralized connection variables prevent code redundancy and allow easy deployment changes.
+        </div>
+      </div>
+
+      <!-- Q6 -->
+      <div class="qa-item">
+        <div class="qa-question">Q6: How does the document renaming step prevent database duplicates?</div>
+        <div class="qa-answer">
+          <strong>Answer:</strong> In <code>rename.php</code>, the Operator specifies clean metadata (Branch, Type, File Number, Phase, Plot, Year). The server-side script merges these tags into a structured, unified naming format. This standardization is updated in the <code>renamed_filename</code> field of the <code>documents</code> table, ensuring uniform nomenclature.
+        </div>
+      </div>
+
+      <!-- Q7 -->
+      <div class="qa-item">
+        <div class="qa-question">Q7: What steps are taken in the code to sanitize input variables?</div>
+        <div class="qa-answer">
+          <strong>Answer:</strong> In <code>includes/config.php</code>, custom functions are defined: <code>clean()</code> uses <code>trim()</code> and <code>strip_tags()</code> to strip HTML code tags, preventing Cross-Site Scripting (XSS). Additionally, the system uses prepared queries (<code>$conn->prepare()</code> and <code>bind_param()</code>) to guarantee parameters are treated as literal values, completely neutralizing SQL Injection attacks.
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+</body>
+</html>
